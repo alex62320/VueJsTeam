@@ -1,0 +1,5 @@
+- page en single page application
+- combat ou rpg
+- mobile
+- tailwind cdn
+- vuejs cdn

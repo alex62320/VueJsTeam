@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.33/vue.cjs.js"></script>
+    <title>Combat pokémon</title>
+</head>
+<body>
+    <header>
+        <h1>Basta</h1>
+    </header>
+    <div id="pokémonHead" class='grid grid-cols-4 place-items-center'>
+        <div class="">
+            <img src="https://picsum.photos/199" alt="">
+        </div>
+        <div>
+            <img src="https://picsum.photos/201" alt="">
+        </div>
+        <div class="">
+            <img src="https://picsum.photos/199" alt="">
+        </div>
+        <div class="">
+            <img src="https://picsum.photos/201" alt="">
+        </div>
+    </div>
+    <div id="pokemonPresent">
+        <div id="nomPokémon">
+
+        </div>
+        <div id="imagePokémon">
+
+        </div>
+        <div id="statsPokémon">
+            <ul>
+                <li id="hp">    </li>
+                <li id="attack">    </li>
+                <li id="defense">   </li>
+                <li id="speed">     </li>
+            </ul>
+        <button type="submit">Combat</button>
+        </div>
+    </div>
+    <div id="battlefield" class="bg-red-700">
+        <div id="pokémonAdverse" class="grid grid-cols-2">
+            <div>
+                <h1 class="text-left pr-2">Pokémon adverse</h1>
+                <progress max="100" value="70" class="justify-self-start"></progress>
+            </div>
+            <div>
+                <img src="https://projectpokemon.org/images/sprites-models/swsh-normal-sprites/eiscue.gif" alt="">
+            </div>
+        </div>
+        <div id="pokémonSelectionner" class="grid grid-cols-2">
+            <div>
+                <img src="https://projectpokemon.org/images/sprites-models/normal-back/charizard.gif" alt="">
+            </div>
+            <div>
+                <div>
+                    <h1 class="text-right pr-2">Pikachu</h1>
+                    <progress max="100" value="70" class="justify-self-end"></progress>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <div id="progression">
+            <div>
+                <p>fooo</p>
+                <p>bar</p>
+            </div>
+        </div>
+        <div class="justify-center grid grid-cols-2">
+            <div id="attack">
+                <button type="submit">Attack</button>
+            </div>
+            <div id="sac">
+                <button type="submit">Sac</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

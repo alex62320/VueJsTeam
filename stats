@@ -1,0 +1,4 @@
+stats base = 200 
+
+math.floor stats
++10
